@@ -21,6 +21,8 @@ const auth = async(req,res,next)=>{
     }catch(e){
         res.status(400).send(e);
     }
+
+    
 }
 
 module.exports=auth;
